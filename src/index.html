@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 <body class="bg-verde-800 font-sans mb-96">
+ <!-- SIDEBAR INFO / DAY , TEMPERATURE AND WEATHER  --->
     <div class="container mt-4 flex justify-center md:justify-start">
         <div class="inline-flex items-center rounded-md bg-verde-900">
             <span class="size-2 bg-verde-300 rounded-full relative -left-1"></span>
@@ -19,6 +20,7 @@
         </div>
     </div>
     
+     <!-- FLOREST VIDEO AND INTRO  --->
     <header class="container flex justify-between gap-8 py-8">
         <a href="./">
             <img src="./img/forest.svg" alt="Forest">
@@ -33,13 +35,25 @@
         </nav>
     </header>
 
+     <!-- INTRO DESCRIPITION + H1 TITLE + intro IMG  --->
     <main class="container">
-        <div class=" relative px-8 pb-8 pt-64 text-white">
+        <div class=" relative px-8 pb-8 pt-64 bg-gradient-to-t from-verde-950/80 text-white rounded-2xl overflow-hidden">
             <img class="absolute inset-0 size-full object-cover -z-10" src="./img/floresta.jpg" alt="">
             <div class="bg-verde-950 inline-flex gap-8 mb-8 items-center py-1 pl-4 pr-1 rounded-full">Open reservations for summer
                 <a class="bg-verde-400 text-verde-900 py-2 px-4 inline-block rounded-full" href="">Book today</a>
             </div>
-            <h1 class="font-serif text-balance max-w-screen-sm text-5xl"> Experience life in the forest and renew your inner energy</h1>
+            <h1 class="mb-20 font-serif text-balance max-w-screen-sm text-5xl"> Experience life in the forest and renew your inner energy</h1>
+            <div class="text-sm flex justify-between items-end">
+                <p> Best places to visit <a class="underline decoration-2 underline-offset-4 hover:no-underline" href="">2025</a> </p>
+                <div class="uppercase mb-2">
+                <p>Recommended by </p>
+                <p class="flex items-center gap-4"> 
+                    <img class="w-28" src="./img/parceiros/wildbeast.svg" alt="wildbeast">
+                    <span>|</span>
+                    National Magazine
+                </p>
+                </div>
+            </div>
         </div>
 
     </main>
