@@ -34,3 +34,4 @@ Also created with responsiveness for smaller screens like mobile.
 - Tailwind has less verbosity, helps maintain consistency and most importantly allows the use of modifiers,
   something you can't get with Inline CSS
 
+https://67a3772622c0a940d3c5da59--idyllic-blini-e090f0.netlify.app
