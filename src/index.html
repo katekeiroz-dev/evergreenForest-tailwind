@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/favicon.png" type="image/png" />
     <title>Evergreen Forest</title>
-    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./output.css">ß
 </head>
 <body class="bg-verde-800 font-sans mb-96">
     <div class="container mt-4 flex justify-center md:justify-start">
@@ -30,10 +30,14 @@
 
 
             <ul class="text-white text-2xl max-lg:divide-y-2 max-lg:divide-white/10 max-lg:z-50  max-lg:absolute max-lg:p-8 max-lg:w-full lg:text-xl lg:flex lg:flex-wrap lg:gap-8">
-                <li><a class="p-4 lg:px-0 lg:py-2 block max-lg:hover:bg-white/10 lg:hover:underline  lg:hover:underline-offset-8" href="#acomodacoes">Accommodations</a></li>
-                <li><a class="p-4 lg:px-0 lg:py-2 block max-lg:hover:bg-white/10 lg:hover:underline  lg:hover:underline-offset-8" href="#eventos">Events</a></li>
-                <li><a class="p-4 lg:px-0 lg:py-2 block max-lg:hover:bg-white/10 lg:hover:underline  lg:hover:underline-offset-8" href="#experiencias">Experiences</a></li>
-                <li><a class="p-4 lg:px-0 lg:py-2 block max-lg:hover:bg-white/10 lg:hover:underline  lg:hover:underline-offset-8" href="#contact">Contact</a></li>
+                <li>
+                    <a class="p-4 lg:px-0 lg:py-2 block max-lg:hover:bg-white/10 lg:hover:underline  lg:hover:underline-offset-8" href="#acomodacoes">Accommodations</a></li>
+                <li>
+                    <a class="p-4 lg:px-0 lg:py-2 block max-lg:hover:bg-white/10 lg:hover:underline  lg:hover:underline-offset-8" href="#eventos">Events</a></li>
+                <li>
+                    <a class="p-4 lg:px-0 lg:py-2 block max-lg:hover:bg-white/10 lg:hover:underline  lg:hover:underline-offset-8" href="#experiencias">Experiences</a></li>
+                <li>
+                    <a class="p-4 lg:px-0 lg:py-2 block max-lg:hover:bg-white/10 lg:hover:underline  lg:hover:underline-offset-8" href="#contact">Contact</a></li>
             </ul>
         </nav>
         <!--MENU MOBILE-->
@@ -54,7 +58,9 @@
      <!-- INTRO DESCRIPITION + H1 TITLE + intro IMG  --->
     <main class="container">
         <div class="relative px-8 pb-8 pt-64 bg-gradient-to-t from-verde-950/80 text-white rounded-2xl overflow-hidden max-sm:px-4 max-sm:pt-12">
-            <img class="absolute inset-0 size-full object-cover -z-10" src="./img/floresta.jpg" alt="">
+           <!--<img class="absolute inset-0 size-full object-cover -z-10" src="./img/floresta.jpg" alt=""/>--> 
+            <video id="video" class="absolute inset-0 size-full object-cover -z-10 animate-fade-in" muted autoplay playsinline loop width="1280" height="720" src="/src/img/video_chuva.mp4"></video>
+
             <div class="bg-verde-950/60 rounded-xl flex flex-col items-start gap-2 p-4 mb-8 sm:gap-8 sm:items-center sm:py-1 sm:pl-4 sm:pr-1 sm:bg-verde-950 sm:inline-flex sm:flex-row sm:rounded-full">Open reservations for summer
                 <a class="bg-verde-400 text-verde-900 py-2 px-4 inline-block rounded-full" href="">Book today</a>
             </div>
@@ -439,7 +445,7 @@
     <!-- parceiros -->
     <section class="container mb-12 sm:mb-16">
       <ul
-        class="flex flex-col items-center py-4 max-sm:divide-y-2 max-sm:divide-verde-900 *:p-4 sm:flex-row sm:gap-8 sm:border-b-2 sm:border-t-2 sm:border-verde-900 sm:py-8 *:*:max-h-8"
+        class="flex flex-col items-center justify-center py-4 max-sm:divide-y-2 max-sm:divide-verde-900 *:p-4 sm:flex-row sm:gap-8 sm:border-b-2 sm:border-t-2 sm:border-verde-900 sm:py-8 *:*:max-h-8"
       >
         <li><img src="./img/parceiros/caravan.svg" alt="Caravan" /></li>
         <li><img src="./img/parceiros/surfbot.svg" alt="Surfbot" /></li>
@@ -484,6 +490,25 @@
         </div>
       </footer>
       <script>
+        const video = document.getElementById('video');
+        const temperature = document.getElementById('temperature');
+        const day = document.getElementById('day');
+        const weather = document.getElementById('weather');
+
+        const random = Math.floor(Math.random() * 10) + 20;
+
+        temperature.innerText = `${random}°`
+        weather.innerText = random < 25 ? `🌧️ ${random + 5}%` : `🌤️` ;
+
+        const date = new Date();
+        day.innerText = date.toLocaleDateString('UK');
+
+        video.src = random < 25 ? `/src/img/video_chuva.mp4` : `/src/img/video_sol.mp4`;
+
+        
+
+
+
         const mobileButton = document.getElementById('mobile-button');
         const mobileMenu = document.getElementById('mobile-menu');
 
