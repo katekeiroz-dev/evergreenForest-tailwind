@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/favicon.png" type="image/png" />
     <title>Evergreen Forest</title>
+<<<<<<< HEAD
     <link rel="stylesheet" href="./output.css">
+=======
+    <link rel="stylesheet" href="./output.css">ß
+>>>>>>> bdba9dd3e88b8b1f824920bf647ea951cc48beaa
 </head>
 <body class="bg-verde-800 font-sans mb-96">
     <div class="container mt-4 flex justify-center md:justify-start">
@@ -13,8 +17,13 @@
             <span class="size-2 bg-verde-300 rounded-full relative -left-1"></span>
         <div class="flex text-verde-300 divide-x-2 divide-verde-800">
             <div class="px-4 py2 capitalize" id="day">Monday</div>
+<<<<<<< HEAD
             <div  class="px-4 py2" id="temperature"></div>
             <div  class="px-4 py2" id="weather"></div>
+=======
+            <div  class="px-4 py2" id="temperature">25°</div>
+            <div  class="px-4 py2" id="weather">🌤️</div>
+>>>>>>> bdba9dd3e88b8b1f824920bf647ea951cc48beaa
         </div>
         </div>
 
@@ -491,6 +500,7 @@
         </div>
       </footer>
       <script>
+<<<<<<< HEAD
         
         const apiKey = "6dbb374ac0653789270caf25b7f6b1f4";
         const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=Waterford,IE";
@@ -520,6 +530,26 @@
         
         const date = new Date();
         day.innerText = date.toLocaleDateString('UK');
+=======
+        const video = document.getElementById('video');
+        const temperature = document.getElementById('temperature');
+        const day = document.getElementById('day');
+        const weather = document.getElementById('weather');
+
+        const random = Math.floor(Math.random() * 10) + 20;
+
+        temperature.innerText = `${random}°`
+        weather.innerText = random < 25 ? `🌧️ ${random + 5}%` : `🌤️` ;
+
+        const date = new Date();
+        day.innerText = date.toLocaleDateString('UK');
+
+        video.src = random < 25 ? `/src/img/video_chuva.mp4` : `/src/img/video_sol.mp4`;
+
+        
+
+
+>>>>>>> bdba9dd3e88b8b1f824920bf647ea951cc48beaa
 
         const mobileButton = document.getElementById('mobile-button');
         const mobileMenu = document.getElementById('mobile-menu');
