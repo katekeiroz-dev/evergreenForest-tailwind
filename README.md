@@ -72,8 +72,7 @@ npm run dev
 
 ---
 
-Made by Kate Keiroz
-
+♥ by Kate Keiroz.
 
 
 
