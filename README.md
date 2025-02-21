@@ -38,6 +38,7 @@ Also created with responsiveness for smaller screens like mobile.
 
 ####  📂 Project Structure  <br>
 This project follows an organized structure to facilitate code maintenance and scalability.
+
 <img width="200" alt="Screenshot 2025-02-21 at 21 27 06" src="https://github.com/user-attachments/assets/63ad30f0-3221-42a2-be02-cf3136f8192c" />
 
 
