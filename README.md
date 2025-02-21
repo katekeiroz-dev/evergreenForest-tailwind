@@ -7,6 +7,7 @@
 #### ✴️ ABOUT THE PROJECT <br>
 This is a personal project, where I created a landing page related to a tourism business.
 Also created with responsiveness for smaller screens like mobile.
+There is also a functionality that checks the current weather ,and according to the temperature it display sunny video or raining one.
 
 
 #### 🎯 PROJECT MAIN GOAL  <br>
@@ -17,6 +18,7 @@ Also created with responsiveness for smaller screens like mobile.
 - HTML5
 - CSS(tailwind)
 - javascript
+- Open weather ( use of API)
 - Git
 - Netlify (deploy)
 
@@ -68,6 +70,9 @@ npm install
 npm run dev
 ```
 
+---
+
+Made by Kate Keiroz
 
 
 
