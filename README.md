@@ -52,8 +52,7 @@ Move into the project directory:
 cd evergreenForest-tailwind
 ```
 
-2. Install Dependencies
-Most Tailwind projects use package managers like npm, yarn, or pnpm. Run the appropriate command inside the project directory:
+2. Install Dependencies:
 
 Using npm:
 
