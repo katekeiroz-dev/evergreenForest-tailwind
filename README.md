@@ -11,12 +11,14 @@ Also created with responsiveness for smaller screens like mobile.
 
 #### 🎯 PROJECT MAIN GOAL  <br>
 
-- The objective of the project was to apply knowledge about the Tailwind CSS framework in practice.
+- The objective of the project was to apply my knowledge about the Tailwind CSS framework in practice.
 
 #### ⚙️ STACKS  <br>
 - HTML5
 - CSS(tailwind)
 - javascript
+- Git
+- Netlify (deploy)
 
   
 #### 💡 Knowledges adquired <br>
@@ -33,6 +35,19 @@ Also created with responsiveness for smaller screens like mobile.
 - Optimized for production
 - Tailwind has less verbosity, helps maintain consistency and most importantly allows the use of modifiers,
   something you can't get with Inline CSS
+
+####  📂 Project Structure  <br>
+This project follows an organized structure to facilitate code maintenance and scalability.
+<img width="200" alt="Screenshot 2025-02-21 at 21 27 06" src="https://github.com/user-attachments/assets/63ad30f0-3221-42a2-be02-cf3136f8192c" />
+
+
+
+
+
+
+
+
+
 
 
 
