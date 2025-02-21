@@ -42,6 +42,32 @@ This project follows an organized structure to facilitate code maintenance and s
 <img width="200" alt="Screenshot 2025-02-21 at 21 27 06" src="https://github.com/user-attachments/assets/63ad30f0-3221-42a2-be02-cf3136f8192c" />
 
 
+####🚀  How to Execute the Project
+1. Clone the Repository
+ ```sh
+git clone https://https://github.com/katekeiroz-dev/evergreenForest-tailwind.git
+```
+Move into the project directory:
+ ```sh
+cd evergreenForest-tailwind
+```
+
+2. Install Dependencies
+Most Tailwind projects use package managers like npm, yarn, or pnpm. Run the appropriate command inside the project directory:
+
+Using npm:
+
+```sh
+
+npm install
+```
+
+
+3. Start the Development Server
+
+```sh
+npm run dev
+```
 
 
 
