@@ -18,7 +18,7 @@ There is also a functionality that checks the current weather ,and according to 
 - HTML5
 - CSS(tailwind)
 - javascript
-- Open weather ( use of API)
+- Open weather  (API)
 - Git
 - Netlify (deploy)
 
