@@ -19,7 +19,7 @@ There is also a functionality that checks the current weather ,and according to 
 - CSS(tailwind)
 - javascript
 - Open weather  (API)
-- Git
+- Git .
 - Netlify (deploy)
 
   
@@ -32,7 +32,7 @@ There is also a functionality that checks the current weather ,and according to 
 
 #### 🔋 Advantages of using TAILWIND  <br>
 - No need to switch between files
-- Constrains styling consistently
+- Constrains styling consistently,
 - Makes it easy to see element styling
 - Optimized for production
 - Tailwind has less verbosity, helps maintain consistency and most importantly allows the use of modifiers,
