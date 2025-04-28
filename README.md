@@ -70,7 +70,7 @@ npm install
 npm run dev
 ```
 
----
+----------------
 
 ♥ by Kate Keiroz.
 
